@@ -1,0 +1,435 @@
+.mobile-pic {
+	display: none
+}
+
+.logo-row {
+	// margin-top: 30px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.launch-logo {
+	height: 110px;	
+}
+
+.asas-logo {
+	height: 130px;
+}
+ 
+.launch-logo-text {
+	font-size: 28px;
+	margin: 0px;
+}
+
+h4.org-intro-text {
+	// font-size: 18px;
+	text-align: left;
+}
+
+.launch-logo-wrapper {
+   // margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;       
+   color: black;
+}
+
+.launch-logo-wrapper:hover {
+	mouse: pointer;
+	color: black; 
+}
+
+.big-logo {
+    height: 110px;
+}
+
+.logo-text.big-logo-text {
+   font-size: 28px;
+   bottom: 10px;
+   display: block;
+}
+
+.big-logo-text.logo-text-prefix {
+   left: 0px;
+   margin-right: 5px;
+}
+
+.big-logo-text.logo-text-postfix {
+   right: 0px;
+   margin-left: 5px;
+}    
+
+.org-intro {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.quarter-container {
+	margin-top: 40px;
+	/*position: relative;
+	top: 25%;
+  	transform: translateY(-25%);	*/
+}
+
+.centered-container {
+	position: relative;
+	top: 50%;
+  	transform: translateY(-50%);	
+}
+
+.intro {
+	padding: 100px 0 100px 0;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.highlight-container {
+	background: #EDF9FB;    
+  	border-bottom: 5px solid #FF9185;
+  	border-top: 5px solid #FF9185;  	
+}
+
+.intro-container {
+	margin-bottom: 20px;
+}
+
+.intro-text {
+	position: relative;
+	z-index: 200;
+	color: #404040;
+	/*height: 100%;*/	
+	font-family: "Josefin Sans";
+}
+
+.intro-line-1 {	
+	font-weight: 900;	
+	font-size: 60px;
+	margin-top: 0px;	
+	/*position: absolute;	*/
+	top: 0px;
+	/*width: 100%;*/
+	padding-top: 10px;
+}
+
+.intro-line-2 {
+	font-weight: 900;
+	font-size: 45px;
+}
+
+.intro-line-3 {
+	font-weight: 900;
+	font-size: 30px;
+	/*position: absolute;	*/
+	 bottom: 0px;	
+	 /*width: 100%;*/
+	 padding-bottom: 10px;
+	 margin-bottom: 0px;
+}
+
+.banner-imgs-wrapper {	
+	width: 100%;	
+	z-index: 0;	
+	position: absolute;
+	top: 0px;
+}
+
+.banner-img {	
+	height: 400px;
+}
+
+.center-banner-img {	
+	width: 100%;
+}
+
+.banner-img-wrapper {		
+	overflow: hidden;
+	padding: 0px;		
+}
+
+.banner-imgs-wrapper .col-xs-4 {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.banner-img-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	background: rgba(237, 249, 251, .75);
+	top: 0px;
+}
+
+.timeline-container {
+	position: relative;
+	margin-top: 20px;
+}
+
+.phase-wrapper {	
+	padding: 10px;
+	display: inline-block;
+	border: 3px solid black;	
+}
+
+.phase-container {
+	margin-bottom: 50px;
+	padding: 10px 0
+}
+
+.phase-container h2 {
+	margin: 0px;
+}
+
+.program-explanation {
+	padding: 0 130px;
+	margin-bottom: 20px;
+}
+
+.opening-testimonials {
+	margin-top: 20px;
+}
+
+.content {
+	padding-bottom: 80px;
+}
+
+.donate-link-row {	
+	border: 3px solid black;
+	display: inline-block;
+	padding: 15px;	
+}
+
+.donate-link {
+
+}
+
+.support-button {
+	display: table; 
+	margin: 0 auto;
+    padding: 18px 28px;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.email-row {
+	margin-top: 20px;
+}
+
+.overview-container {
+	margin-top: 10px;	
+}
+
+.overview-divider{
+	border-bottom: 5px solid #FF9185;
+}
+
+.results-container {
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mailchimp-form {
+	margin-top: 20px;
+}
+
+.subscribe-button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.rocket-sidebar {	
+	height: 4000px;
+}
+
+.rocket-img {
+	height: 100%;
+}
+
+.metric-container {
+	display: flex;
+	align-items: flex-end;	
+}
+
+.metric-container h1 {
+	line-height: .8em
+}
+
+.metric-container h1, .metric-container h3 {
+	margin-bottom: 0px
+}
+
+.section-wrapper {	
+	display: flex;
+}
+
+.section-description {
+	width: 55%;	
+}
+
+.section-description.full-width {
+	width: 100%;
+}
+
+.section-description h3 {
+	margin-top: 0px;
+}
+
+.section-description h4 {
+	margin: 0px;
+}
+
+.explanation-row .row {
+	margin-top: 30px;
+}
+
+.inline-pic {
+	width: 100%
+}
+
+.pic-box-right {
+	width: 40%;
+	margin-left: 5%;	
+	overflow: hidden;
+	border-radius: 20px;
+	position: relative;
+	min-height: 175px;
+}
+
+.pic-box-left {
+	width: 40%;
+	margin-right: 5%;	
+	overflow: hidden;
+	border-radius: 20px;
+	position: relative;
+	min-height: 175px;
+}
+
+.bottom-pic-box {
+	height: 150px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.section-image {
+	position: absolute;
+	width:100%
+}
+
+.metric-row {
+	margin-top: 50px;
+	border: 4px solid rgb(210, 230, 240);
+	/*border: 4px solid #5B9EAA;	*/
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+.explanation-row {
+	margin-top: 10px;
+}
+
+.overview-wrapper {
+		padding-bottom: 36px;
+}
+
+.overview-2-pic-container {
+	overflow: hidden;
+	height: 150px;
+	border-radius: 35px;
+}
+
+.overview-2-pic {
+	width: 100%;
+}
+
+.pitch, .lessons-learned {
+	margin-top: 15px;
+}
+
+.overview-3-pic-container {
+	overflow: hidden;
+	height: 150px;
+	width: 100%;
+	border-radius: 35px;
+	margin-right: 5px;
+}
+
+.overview-3-pic-wrapper {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.overview-3-pic {
+	height: 150px;
+	margin-left: -20px;
+}
+
+.blogs.row {
+	margin-top: 20px;	
+}
+
+.blogs .links {
+	margin-top: 20px;
+}
+
+.conclusion-row {
+	margin-top: 40px;
+}
+
+.conclusion {
+	margin-bottom: 20px;
+}
+
+
+@media (max-device-width: 480px) {
+	.program-explanation {
+		padding: 0;
+	}
+
+	.section-description {
+		width: 100%
+	}	
+
+	.section-image {
+		width: 100%;
+		height: auto;		
+	}
+
+	.pic-box-left, .pic-box-right {
+		display: none;
+	}
+
+	.mobile-pic {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 350px;
+		border-radius: 20px;
+		margin-top: 50px;
+		overflow: hidden;
+	}
+
+	.section-wrapper {
+		display: block;
+	}
+
+	.rocket-sidebar {
+		display: none;
+	}	
+
+	// .conclusion-images {
+	// 	display: none;
+	// }
+
+	.overview-wrapper {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+}
